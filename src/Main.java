@@ -4,18 +4,15 @@ public class Main {
     public static void main(String[] args) {
 
         Matrix m = new Matrix();
-        //m.printMatrix(m.getMatrix());
 
+        /* Заполняем матрицу случайными числами и выводим на экран */
         m.FillMatrixRandomNumbers();
-        m.printMatrix(m.getMatrix());
+        m.printMatrix();
 
-        m.turnMatrixRight(90);
-        m.printMatrix(m.getTurnedMatrix());
+        m.turnMatrixRight(90).printMatrix();
+        m.turnMatrixRight(180).printMatrix();
+        m.turnMatrixRight(270).printMatrix();
+        m.turnMatrixRight(150).printMatrix();
 
-        m.turnMatrixRight(180);
-        m.printMatrix(m.getTurnedMatrix());
-
-        m.turnMatrixRight(270);
-        m.printMatrix(m.getTurnedMatrix());
     }
 }
