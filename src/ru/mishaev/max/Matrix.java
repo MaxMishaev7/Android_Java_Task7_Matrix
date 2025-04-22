@@ -31,16 +31,6 @@ public class Matrix {
         }
     }
 
-//    public void printMatrix(int[][] matrixArray) {
-//        for (int i = 0; i < SIZE; i++) {
-//            for(int j = 0; j < SIZE; j++) {
-//                System.out.printf("%4d ", matrixArray[i][j]);
-//            }
-//            System.out.print(System.lineSeparator());
-//        }
-//        System.out.print(System.lineSeparator());
-//    }
-
     public void printMatrix() {
         for (int i = 0; i < SIZE; i++) {
             for(int j = 0; j < SIZE; j++) {
