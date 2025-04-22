@@ -1,7 +1,6 @@
 package ru.mishaev.max;
 
 import java.util.Random;
-import java.util.Arrays;
 
 public class Matrix {
     private final int SIZE;
